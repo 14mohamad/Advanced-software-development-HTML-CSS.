@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html dir="rtl">
+    <meta charset="UTF-8">
+    <title>אודות</title>
+<head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background:rgb(131, 130, 130);
+    }
+    div{
+        margin: auto;
+        width: 300px;
+        height: 300px;
+        background: red;
+        position: relative;
+        animation: myfirst 5s 6;
+        animation-direction: alternate;
+    }
+    @keyframes myfirst{
+        25% {background: red;left: 500px; top: 0px;}
+        25% {background: yellow;left: 300px; top: 0px;}
+        50% {background: blue;left: 200px; top: 200px;}
+        75% {background: green;left: 0px; top: 200px;}
+        100% {background: red;left: 0px; top: 0px;}
+    }
+    .button2 {
+            display: inline-block;
+            margin-left: 800px;
+            vertical-align: middle;
+            padding: 20px 50px;
+            border: 4px solid #3a499e;
+            border-radius: 50px;
+            background: #c41b99;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+            background: -moz-linear-gradient(top, #ff0000, #03fd63);
+            background: linear-gradient(to bottom, #ffffff, #ffffff);
+            -webkit-box-shadow: #00c742 0px 0px 40px 0px;
+            -moz-box-shadow: #00c742 0px 0px 40px 0px;
+            box-shadow: #00eeff 0px 0px 40px 0px;
+            text-shadow: #e2e6e9 1px 1px 1px;
+            font: normal normal bold 17px arial;
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .button2:hover,
+        .button2:focus {
+            margin-left: 800px;
+            border: 4px solid #3a499e;
+            background: #ffffff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+            background: -moz-linear-gradient(top, #00fff2, #ffffff);
+            background: linear-gradient(to bottom, #00fff2, #ffffff);
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        .button2:active {
+            margin-left: 800px;
+            background: #ffffff;
+            background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ffffff));
+            background: -moz-linear-gradient(top, #ffffff, #ffffff);
+            background: linear-gradient(to bottom, #ffffff, #ffffff);
+        }
+</style>
+</head>
+<body>
+    <div>
+        <a>*************************************</a>
+        <p><i>מציג את העבודה : </i></p>
+        <p><i> סטודנט בקורס פיתוח מערכות מתקדמת - html+css</i></P>
+        <p><i>שזה מונח לתמונות כלפים ומשחק על סופר מאריו</i></p>
+        <p><i>הנציג הוא מוחמד מוסא, בן 20 שנה</i></p>
+        <a>*************************************</a>
+
+    </div>
+
+    <button class="button2" style="margin-top: 220px;"><a href="home.html"> החזרה</a>
+</body>
+</html>
